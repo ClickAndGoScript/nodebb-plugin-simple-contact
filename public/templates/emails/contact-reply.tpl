@@ -16,7 +16,7 @@
         </h2>
 
         <div style="font-size: 16px; color: #444; line-height: 1.6; margin-top: 20px;">
-            {body}
+            {{body}}
         </div>
 
     </div>
