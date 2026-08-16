@@ -2,7 +2,7 @@
 
 require(['translator'], function (translator) {
     $(window).on('action:ajaxify.contentLoaded', function (event, data) {
-        if (!data || !data.template || data.template.name !== 'contact') {
+        if (!data || data.tpl !== 'contact') {
             return;
         }
         initContactForm();
